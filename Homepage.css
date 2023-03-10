@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<style>
+		.button-container{
+			display:flex;
+			justify-content: center;
+			margin: 0 auto;
+		}
+
+		button{
+			margin:0 5px;
+		}		
+		h1 {
+			color: darkgrey;
+			font-family: sans-serif;
+			text-align: center;
+		}
+		h2 {
+			font-size: 20px;
+			text-align: center;
+		}
+		p {
+			font-family: serif;
+			text-align: center;
+		}
+		img { 
+			max-width: 100%;
+			height: auto;
+			margin: 0 auto;
+			display: block;
+		}
+	</style>
+</head>
+<body>
+	<button onclick="window.location.href='Memories.html'">Memories</button>
+	<button onclick="window.location.href='AboutK.html'">About Kuikui</button>
+	<button onclick="window.location.href='AboutH.html'">About Hyde</button>
+	<h1>Memories with Cats</h1>
+	<h2>Kuikui and Hyde</h2>
+	<p>Kuikui is the first cat that we welcomed home, and she is a cute tabby cat that is 2 years old. She enjoys sunbath, and does not like to be disturbed. Hyde is our second cat who is about 7 months old, and he likes to play with Kuikui and definitely hate the sun.</p>
+	<img src="WechatIMG27432.jpeg" alt="Playing">
+</body>
+</html>
+
+
